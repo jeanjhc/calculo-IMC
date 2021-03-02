@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="title"> Meu IMC </div>
+            <div class="input">
+                <label>Nome:</label>
+                <input type="text" id='nome'>
+            </div>
+            <div class="input">
+                <label>Altura:</label>
+                <input type="range" id='altura' min="1.00" step="0.05" max="2.50" onchange="alturaNumero()">
+                <div id="valorAltura">2.0</div>
+            </div>
+            <div class="input">
+                <label>Peso:</label>
+                <input type="range" id='peso' min="20" step="0.5" max="200" onchange="pesoNumero()">
+                <div id="valorPeso">250</div>
+            </div>
+            <button id='calcular' onclick="imc()">Calcular</button>
+
+            <div class="result" id='resultado'></div>
+        </div>
+    </main>
+    <script src="./imc.js"></script>
+</body>
+
+</html>

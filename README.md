@@ -1,0 +1,2 @@
+Esse projeto tem a objetividade de dar acesso ao usuario ao seu IMC (índice de massa corporal), onde o mesmo preenche os campos necessários e em segugida será mostrado o seu IMC e o estado de massa corporal.
+O projeto foi desenvolvido com o recurso "ranche", o que deixa o projeto muito interativo com o usuario.
